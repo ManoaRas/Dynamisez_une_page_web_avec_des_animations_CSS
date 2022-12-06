@@ -1,6 +1,19 @@
+body {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@import 'abstracts/variables';
+
+@import 'base/icon';
 @import 'base/typography';
 
 @import 'components/buttons';
+@import 'components/search';
 
 @import 'layout/footer';
 @import 'layout/header';

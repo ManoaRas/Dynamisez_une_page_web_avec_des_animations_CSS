@@ -1,0 +1,11 @@
+.header {
+  border-bottom: 1px solid lightgrey;
+  box-shadow: 0 5px 10px lightgrey;
+  .header__logo {
+    position: relative;
+    top: 5px;
+    left: 10vh;
+    max-width: 200px;
+    padding: 15px;
+  }
+}

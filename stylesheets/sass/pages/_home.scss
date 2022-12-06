@@ -1,0 +1,55 @@
+.container {
+  margin: 8vh 2vh;
+}
+
+.fonction__list {
+  list-style-type: none;
+  padding: 0;
+}
+.list {
+  margin: 50px 0;
+  .list__bold {
+    font-weight: 600;
+  }
+}
+.card {
+  margin-bottom: 25px;
+  border-radius: 0 0 15px 15px;
+  height: 235px;
+  .card__img {
+    width: 354px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  .card__new {
+    position: relative;
+    bottom: 135px;
+    left: 265px;
+    color: green;
+    background-color: $tertiary-color;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .card__description {
+    padding: 0 10px;
+    max-height: 62px;
+  }
+}
+.card__description {
+  .card__title {
+    margin: 0;
+  }
+  .card__subtitle {
+    margin-top: 5px;
+  }
+  .fa-heart {
+    position: relative;
+    bottom: 50px;
+    left: 300px;
+    font-size: 1.5em;
+  }
+}
+.neumorphism {
+  box-shadow: 0 5px 10px lightgrey;
+}

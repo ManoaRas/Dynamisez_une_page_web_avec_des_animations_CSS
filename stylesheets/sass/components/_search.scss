@@ -1,0 +1,19 @@
+.research {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  .research__form {
+    position: relative;
+    left: 20px;
+    height: 5vh;
+  }
+  .research__text {
+    text-align: center;
+    width: 70%;
+  }
+}
+#city {
+  border: none;
+  outline: none;
+}

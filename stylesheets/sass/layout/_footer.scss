@@ -1,0 +1,11 @@
+.footer {
+  background-color: #353535;
+  color: white;
+  .footer__container {
+    padding: 20px 2vh;
+  }
+  .footer__logo {
+    filter: brightness(0) invert(1);
+    max-width: 100px;
+  }
+}

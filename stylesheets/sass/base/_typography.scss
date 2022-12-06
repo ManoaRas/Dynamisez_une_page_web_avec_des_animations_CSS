@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+
+$title-font: 'Shrikhand', cursive;
+$text-font: 'Roboto', sans-serif;
+
+h2, h4, h5, .header__logo, .footer__logo {
+  font-family: $title-font;
+}
+
+* {
+  font-family: $text-font;
+}

@@ -1,0 +1,15 @@
+.icon {
+  margin: 0 15px;
+}
+.icon__menu {
+  color: grey;
+}
+.icon__store {
+  color: $primary-color;
+}
+.number {
+  color: white;
+  background-color: $primary-color;
+  border-radius: 50%;
+  padding: 5px 10px;
+}

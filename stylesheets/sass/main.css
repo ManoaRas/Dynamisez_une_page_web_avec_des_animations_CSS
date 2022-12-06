@@ -1,1 +1,160 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
+body {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon {
+  margin: 0 15px;
+}
+
+.icon__menu {
+  color: grey;
+}
+
+.icon__store {
+  color: #9356DC;
+}
+
+.number {
+  color: white;
+  background-color: #9356DC;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+h2, h4, h5, .header__logo, .footer__logo {
+  font-family: "Shrikhand", cursive;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.research--btn {
+  color: white;
+  background: linear-gradient(175deg, #FF79DA 10%, #9356DC 90%);
+  border: none;
+  border-radius: 2em;
+  box-shadow: 0px 4px 8px 4px lightgrey;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.research {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.research .research__form {
+  position: relative;
+  left: 20px;
+  height: 5vh;
+}
+.research .research__text {
+  text-align: center;
+  width: 70%;
+}
+
+#city {
+  border: none;
+  outline: none;
+}
+
+.footer {
+  background-color: #353535;
+  color: white;
+}
+.footer .footer__container {
+  padding: 20px 2vh;
+}
+.footer .footer__logo {
+  filter: brightness(0) invert(1);
+  max-width: 100px;
+}
+
+.header {
+  border-bottom: 1px solid lightgrey;
+  box-shadow: 0 5px 10px lightgrey;
+}
+.header .header__logo {
+  position: relative;
+  top: 5px;
+  left: 10vh;
+  max-width: 200px;
+  padding: 15px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.nav .nav__text {
+  color: white;
+  margin: 5px 0;
+}
+
+.container {
+  margin: 8vh 2vh;
+}
+
+.fonction__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list {
+  margin: 50px 0;
+}
+.list .list__bold {
+  font-weight: 600;
+}
+
+.card {
+  margin-bottom: 25px;
+  border-radius: 0 0 15px 15px;
+  height: 235px;
+}
+.card .card__img {
+  width: 354px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card .card__new {
+  position: relative;
+  bottom: 135px;
+  left: 265px;
+  color: green;
+  background-color: #99E2D0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.card .card__description {
+  padding: 0 10px;
+  max-height: 62px;
+}
+
+.card__description .card__title {
+  margin: 0;
+}
+.card__description .card__subtitle {
+  margin-top: 5px;
+}
+.card__description .fa-heart {
+  position: relative;
+  bottom: 50px;
+  left: 300px;
+  font-size: 1.5em;
+}
+
+.neumorphism {
+  box-shadow: 0 5px 10px lightgrey;
+}/*# sourceMappingURL=main.css.map */
