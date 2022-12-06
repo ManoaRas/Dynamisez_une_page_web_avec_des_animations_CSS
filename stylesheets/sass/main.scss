@@ -1,14 +1,10 @@
-@import
-  'base/typography';
+@import 'base/typography';
 
-@import
-  'components/buttons';
+@import 'components/buttons';
 
-@import
-  'layout/footer',
-  'layout/header',
-  'layout/navigation';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/navigation';
 
-@import
-  'pages/home',
-  'pages/menu';
+@import 'pages/home';
+@import 'pages/menu';
