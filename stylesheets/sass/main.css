@@ -1,21 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
-.icon {
-  margin: 0 15px;
-}
-
-.icon-menu {
-  color: grey;
-}
-
-.icon-store {
-  color: #9356DC;
-}
-
-.icon-footer {
-  width: 15px;
-  margin-right: 15px;
-}
-
 h2, h4, h5, .header__logo, .footer__logo {
   font-family: "Shrikhand", cursive;
   letter-spacing: 1px;
@@ -23,6 +6,19 @@ h2, h4, h5, .header__logo, .footer__logo {
 
 * {
   font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.neumorphism {
+  box-shadow: 0 5px 10px lightgrey;
 }
 
 .btn {
@@ -42,8 +38,61 @@ h2, h4, h5, .header__logo, .footer__logo {
   padding: 15px 30px;
 }
 
-.neumorphism {
+.icon {
+  margin: 0 15px;
+}
+
+.icon-menu {
+  color: grey;
+}
+
+.icon-store {
+  color: #9356DC;
+}
+
+.icon-footer {
+  width: 15px;
+  margin-right: 15px;
+}
+
+.footer {
+  background-color: #353535;
+  color: white;
+}
+.footer .footer__container {
+  padding: 20px;
+  padding-top: 30px;
+}
+.footer .footer__logo {
+  filter: brightness(0) invert(1);
+  max-width: 100px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.nav .nav__text {
+  color: white;
+  margin: 5px 0;
+}
+
+.header {
+  border-bottom: 1px solid lightgrey;
   box-shadow: 0 5px 10px lightgrey;
+}
+.header .header__logo {
+  position: relative;
+  top: 5px;
+  left: 10vh;
+  max-width: 200px;
+  padding: 15px;
+}
+.header .header--back {
+  position: absolute;
+  top: 28px;
+  left: 20px;
 }
 
 .research {
@@ -67,55 +116,6 @@ h2, h4, h5, .header__logo, .footer__logo {
   border: none;
   outline: none;
   width: 75%;
-}
-
-.footer {
-  background-color: #353535;
-  color: white;
-}
-.footer .footer__container {
-  padding: 20px;
-  padding-top: 30px;
-}
-.footer .footer__logo {
-  filter: brightness(0) invert(1);
-  max-width: 100px;
-}
-
-.header {
-  border-bottom: 1px solid lightgrey;
-  box-shadow: 0 5px 10px lightgrey;
-}
-.header .header__logo {
-  position: relative;
-  top: 5px;
-  left: 10vh;
-  max-width: 200px;
-  padding: 15px;
-}
-.header .header--back {
-  position: absolute;
-  top: 28px;
-  left: 20px;
-}
-
-.nav {
-  display: flex;
-  flex-direction: column;
-  margin: 15px 0;
-}
-.nav .nav__text {
-  color: white;
-  margin: 5px 0;
-}
-
-body {
-  margin: 0 !important;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 .home-container {

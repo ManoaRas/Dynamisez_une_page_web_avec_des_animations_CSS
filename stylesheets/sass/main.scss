@@ -1,16 +1,13 @@
 @import 'abstracts/variables';
 
-@import 'base/icon';
 @import 'base/typography';
+@import 'base/base';
 
 @import 'components/buttons';
-@import 'components/card';
-@import 'components/search';
+@import 'components/icon';
 
 @import 'layout/footer';
 @import 'layout/header';
-@import 'layout/navigation';
 
-@import 'pages/allpages';
 @import 'pages/home';
 @import 'pages/menu';
