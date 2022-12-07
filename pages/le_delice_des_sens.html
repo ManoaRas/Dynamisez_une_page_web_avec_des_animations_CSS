@@ -6,106 +6,115 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="../stylesheets/css/style.css">
     <script src="https://kit.fontawesome.com/d04d37ffe8.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
-      <a href="index.html" class="back"><i class="fa-solid fa-arrow-left"></i><img src="../assets/logo/ohmyfood.png" alt="Logo Ohmyfood" class="logo"></a>
+    <header class="header">
+      <a href="index.html">
+        <i class="fa-solid fa-arrow-left header--back"></i>
+        <img src="../assets/logo/ohmyfood.png" alt="Logo Ohmyfood" class="header__logo"></a>
     </header>
+
     <main>
-      <section></section>
-      <section>
-        <h2></h2>
-        <article>
-          <h4></h4>
+      <img src="../assets/images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens" class="menu-images">
+      <section class="menu-container">
+        <h2 class="menu-title">
+          Le délice des sens
+          <i class="fa-regular fa-heart"></i>
+        </h2>
+        <article class="menu-container__margin">
+          <h3 class="category mb-0">ENTRÉES</h3>
           <section>
-            <a href="">
+            <a href="#" class="menu-card neumorphism">
               <div>
-                <h5></h5>
-                <p></p>
+                <h4 class="menu-card__title mb-0">Tartare de thon</h4>
+                <p class="menu-card__text mt-0">Assaisonné au yuzu</p>
               </div>
-              <p></p>
+              <p class="menu-card__price">25€</p>
             </a>
-            <a href="">
+            <a href="#" class="menu-card neumorphism">
               <div>
-                <h5></h5>
-                <p></p>
+                <h4 class="menu-card__title mb-0">Bouchée de homard croustillant</h4>
+                <p class="menu-card__text mt-0">Et sa farandole de petits légumes</p>
               </div>
-              <p></p>
+              <p class="menu-card__price">35€</p>
             </a>
-            <a href="">
+            <a href="#" class="menu-card neumorphism">
               <div>
-                <h5></h5>
-                <p></p>
+                <h4 class="menu-card__title mb-0">Velouté de cèpes</h4>
+                <p class="menu-card__text mt-0">Aux truffes</p>
               </div>
-              <p></p>
+              <p class="menu-card__price">20€</p>
             </a>
           </section>
         </article>
-        <article>
-          <h4></h4>
+        <article class="menu-container__margin">
+          <h3 class="category mb-0">PLATS</h3>
           <section>
-            <a href="">
+            <a href="#" class="menu-card neumorphism">
               <div>
-                <h5></h5>
-                <p></p>
+                <h4 class="menu-card__title mb-0">Poulet rôti aux herbes de Provence</h4>
+                <p class="menu-card__text mt-0">Et sa crème de truffe</p>
               </div>
-              <p></p>
+              <p class="menu-card__price">40€</p>
             </a>
-            <a href="">
+            <a href="#" class="menu-card neumorphism">
               <div>
-                <h5></h5>
-                <p></p>
+                <h4 class="menu-card__title mb-0">Langouste rôtie</h4>
+                <p class="menu-card__text mt-0">Et ses légumes de saison</p>
               </div>
-              <p></p>
+              <p class="menu-card__price">35€</p>
             </a>
-            <a href="">
+            <a href="#" class="menu-card neumorphism">
               <div>
-                <h5></h5>
-                <p></p>
+                <h4 class="menu-card__title mb-0">Côte de boeuf Angus</h4>
+                <p class="menu-card__text mt-0">Et sa purée de panais</p>
               </div>
-              <p></p>
+              <p class="menu-card__price">44€</p>
             </a>
           </section>
         </article>
-        <article>
-          <h4></h4>
+        <article class="menu-container__margin mb-0">
+          <h3 class="category mb-0">DESSERTS</h3>
           <section>
-            <a href="">
+            <a href="#" class="menu-card neumorphism">
               <div>
-                <h5></h5>
-                <p></p>
+                <h4 class="menu-card__title mb-0">Farandole de desserts</h4>
+                <p class="menu-card__text mt-0">Du chef</p>
               </div>
-              <p></p>
+              <p class="menu-card__price">18€</p>
             </a>
-            <a href="">
+            <a href="#" class="menu-card neumorphism">
               <div>
-                <h5></h5>
-                <p></p>
+                <h4 class="menu-card__title mb-0">Crème brulée</h4>
+                <p class="menu-card__text mt-0">Revisitée</p>
               </div>
-              <p></p>
+              <p class="menu-card__price">22€</p>
             </a>
-            <a href="">
+            <a href="#" class="menu-card neumorphism">
               <div>
-                <h5></h5>
-                <p></p>
+                <h4 class="menu-card__title mb-0">Tiramisu</h4>
+                <p class="menu-card__text mt-0">À la noisette</p>
               </div>
-              <p></p>
+              <p class="menu-card__price">23€</p>
             </a>
           </section>
         </article>
-        <button></button>
+        <button class="btn menu-btn mt-0">Commander</button>
       </section>
     </main>
-    <footer>
-      <h4>ohmyfood</h4>
-      <nav class="nav">
-        <a href="#"><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a>
-        <a href="#"><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a>
-        <a href="#">Mentions légales</a>
-        <a href="#">Contact</a>
-      </nav>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <img src="../assets/logo/ohmyfood@2x.svg" alt="Logo Ohmyfood" class="footer__logo">
+        <nav class="nav">
+          <a href="#" class="nav__text"><i class="fa-solid fa-utensils icon-footer"></i>Proposer un restaurant</a>
+          <a href="#" class="nav__text"><i class="fa-solid fa-handshake-angle icon-footer"></i>Devenir partenaire</span></a>
+          <a href="#" class="nav__text">Mentions légales</a>
+          <a href="#" class="nav__text">Contact</a>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>

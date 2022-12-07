@@ -1,28 +1,38 @@
-.container {
-  margin: 8vh 2vh;
+.home-container {
+  margin: 10vh 2vh;
+  .home-container--padding {
+    padding-bottom: 1vh;
+  }
 }
-
-.fonction__list {
+.lists {
   list-style-type: none;
   padding: 0;
+  .list {
+    margin: 50px 0;
+  }
 }
 .list {
-  margin: 50px 0;
+  .list__number {
+    color: white;
+    background-color: $primary-color;
+    border-radius: 50%;
+    padding: 5px 10px;
+  }
   .list__bold {
     font-weight: 600;
   }
 }
-.card {
+.home-card {
   margin-bottom: 25px;
   border-radius: 0 0 15px 15px;
   height: 235px;
-  .card__img {
+  .home-card__img {
     width: 354px;
     height: 150px;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
   }
-  .card__new {
+  .home-card__new {
     position: relative;
     bottom: 135px;
     left: 265px;
@@ -31,16 +41,16 @@
     padding: 10px;
     border-radius: 5px;
   }
-  .card__description {
+  .home-card__description {
     padding: 0 10px;
     max-height: 62px;
   }
 }
-.card__description {
-  .card__title {
+.home-card__description {
+  .home-card__title {
     margin: 0;
   }
-  .card__subtitle {
+  .home-card__subtitle {
     margin-top: 5px;
   }
   .fa-heart {
@@ -49,7 +59,4 @@
     left: 300px;
     font-size: 1.5em;
   }
-}
-.neumorphism {
-  box-shadow: 0 5px 10px lightgrey;
 }

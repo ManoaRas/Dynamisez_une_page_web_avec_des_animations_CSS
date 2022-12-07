@@ -1,15 +1,13 @@
 .icon {
   margin: 0 15px;
 }
-.icon__menu {
+.icon-menu {
   color: grey;
 }
-.icon__store {
+.icon-store {
   color: $primary-color;
 }
-.number {
-  color: white;
-  background-color: $primary-color;
-  border-radius: 50%;
-  padding: 5px 10px;
+.icon-footer {
+  width: 15px;
+  margin-right: 15px;
 }

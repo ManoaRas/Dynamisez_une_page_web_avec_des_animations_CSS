@@ -5,6 +5,7 @@ $text-font: 'Roboto', sans-serif;
 
 h2, h4, h5, .header__logo, .footer__logo {
   font-family: $title-font;
+  letter-spacing: 1px;
 }
 
 * {

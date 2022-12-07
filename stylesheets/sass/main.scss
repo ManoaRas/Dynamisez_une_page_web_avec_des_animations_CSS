@@ -1,23 +1,16 @@
-body {
-  margin: 0 !important;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
 @import 'abstracts/variables';
 
 @import 'base/icon';
 @import 'base/typography';
 
 @import 'components/buttons';
+@import 'components/card';
 @import 'components/search';
 
 @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/navigation';
 
+@import 'pages/allpages';
 @import 'pages/home';
 @import 'pages/menu';
