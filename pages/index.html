@@ -14,21 +14,33 @@
       <a href="index.html"><img src="../assets/logo/ohmyfood.png" alt="Logo Ohmyfood" class="header__logo"></a>
     </header>
 
-    <main>
-      <section class="research">
-        <form action="#" class="research__form">
-          <label for="city">
-            <i class="fa-solid fa-location-dot"></i>
-          </label>
-          <input type="search" id="city" name="city" placeholder="Paris, Belleville">
-        </form>
-        <div class="research__text">
-          <h2>Réservez le menu qui vous convient</h2>
-          <p>Découvrez des restaurants d'exception, sélectionnés par nos soin.</p>
-          <button type="button" class="btn">Explorer nos restaurants</button>
-        </div>
-      </section>
+    <div class='spinner'>
+      <div class="spinner__loader">
+        <span class="spinner__loader--filtre"></span>
+        <span class="spinner__loader--filtre"></span>
+        <span class="spinner__loader--filtre"></span>
+        <span class="spinner__loader--filtre"></span>
+        <span class="spinner__loader--filtre"></span>
+        <span class="spinner__loader--filtre"></span>
+        <span class="spinner__loader__texte">ohmyfood</span>
+      </div>
+    </div>
 
+    <nav class="research">
+      <form class="research__form">
+        <label for="city">
+          <i class="fa-solid fa-location-dot"></i>
+        </label>
+        <input type="search" id="city" name="city" placeholder="Paris, Belleville">
+      </form>
+      <div class="research__text">
+        <h2>Réservez le menu qui vous convient</h2>
+        <p>Découvrez des restaurants d'exception, sélectionnés par nos soin.</p>
+        <button type="button" class="btn">Explorer nos restaurants</button>
+      </div>
+    </nav>
+
+    <main>
       <section class="home-container">
         <section class="home-container--padding">
           <h2>Fonctionnement</h2>
