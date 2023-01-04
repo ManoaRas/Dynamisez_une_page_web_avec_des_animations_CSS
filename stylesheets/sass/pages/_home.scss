@@ -44,9 +44,17 @@
     font-weight: 600;
   }
 }
+
+#article-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .home-card {
   margin-bottom: 25px;
   border-radius: 0 0 15px 15px;
+  width: 354px;
   height: 235px;
   .home-card__img {
     width: 354px;
@@ -64,21 +72,26 @@
     border-radius: 5px;
   }
   .home-card__description {
-    padding: 0 10px;
+    width: 354px;
     max-height: 62px;
   }
 }
 .home-card__description {
+  display: flex;
+  justify-content: space-around;
+  width: 354px;
+  .description-restaurant {
+    width: 250px;
+  }
+  .fa-heart {
+    font-size: 1.5em;
+  }
+}
+.description-restaurant {
   .home-card__title {
     margin: 0;
   }
   .home-card__subtitle {
     margin-top: 5px;
-  }
-  .fa-heart {
-    position: relative;
-    bottom: 50px;
-    left: 300px;
-    font-size: 1.5em;
   }
 }
