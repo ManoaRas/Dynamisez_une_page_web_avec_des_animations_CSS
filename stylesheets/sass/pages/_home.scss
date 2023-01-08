@@ -1,15 +1,16 @@
+// Research
 .research {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10px;
-  .research__form {
+  &__form {
     position: relative;
     left: 20px;
     height: 5vh;
     width: 40%;
   }
-  .research__text {
+  &__text {
     text-align: center;
     width: 70%;
   }
@@ -20,9 +21,10 @@
   width: 75%;
 }
 
+// Operating
 .home-container {
   margin: 10vh 2vh;
-  .home-container--padding {
+  &--operating {
     padding-bottom: 1vh;
   }
 }
@@ -31,17 +33,15 @@
   padding: 0;
   .list {
     margin: 50px 0;
-  }
-}
-.list {
-  .list__number {
-    color: white;
-    background-color: $primary-color;
-    border-radius: 50%;
-    padding: 5px 10px;
-  }
-  .list__bold {
-    font-weight: 600;
+    &__number {
+      color: white;
+      background-color: $primary-color;
+      border-radius: 50%;
+      padding: 5px 10px;
+    }
+    &__bold {
+      font-weight: 600;
+    }
   }
 }
 .list:hover {
@@ -51,24 +51,25 @@
   }
 }
 
-#article-cards {
+#home-article {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
+// Cards
 .home-card {
   margin-bottom: 25px;
   border-radius: 0 0 15px 15px;
   width: 354px;
   height: 235px;
-  .home-card__img {
+  &__img {
     width: 354px;
     height: 150px;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
   }
-  .home-card__new {
+  &__new {
     position: relative;
     bottom: 135px;
     left: 265px;
@@ -77,27 +78,23 @@
     padding: 10px;
     border-radius: 5px;
   }
-  .home-card__description {
+  &__description {
     width: 354px;
     max-height: 62px;
-  }
-}
-.home-card__description {
-  display: flex;
-  justify-content: space-around;
-  width: 354px;
-  .description-restaurant {
-    width: 250px;
-  }
-  .fa-heart {
-    font-size: 1.5em;
-  }
-}
-.description-restaurant {
-  .home-card__title {
-    margin: 0;
-  }
-  .home-card__subtitle {
-    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 354px;
+    &--restaurant {
+      width: 250px;
+      &--title {
+        margin: 0;
+      }
+      &--subtitle {
+        margin-top: 5px;
+      }
+    }
+    .my-heart {
+      font-size: 1.5em;
+    }
   }
 }

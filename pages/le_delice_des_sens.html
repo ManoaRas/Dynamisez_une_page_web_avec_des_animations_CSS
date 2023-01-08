@@ -13,96 +13,158 @@
     <header class="header">
       <a href="index.html">
         <i class="fa-solid fa-arrow-left header--back"></i>
-        <img src="../assets/logo/ohmyfood.png" alt="Logo Ohmyfood" class="header__logo"></a>
+        <img src="../assets/logo/ohmyfood.png" alt="Logo Ohmyfood" class="header--logo"></a>
     </header>
 
     <main>
       <img src="../assets/images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens" class="menu-images">
-      <section class="menu-container">
-        <h2 class="menu-title">
+      <section class="menu">
+        <h2 class="menu--title">
           Le délice des sens
-          <div class="my-heart">
+          <span class="my-heart">
             <i class="fa-regular fa-heart my-heart--empty">
             </i>
             <i class="fa-solid fa-heart my-heart--color"></i>
-          </div>
+          </span>
         </h2>
-        <article class="menu-container__margin">
-          <h3 class="category mb-0">ENTRÉES</h3>
+        <article class="menu--article">
+          <h3 class="menu--article--category mb-0">ENTRÉES</h3>
           <section>
-            <a href="#" class="menu-card neumorphism">
-              <div>
-                <h4 class="menu-card__title mb-0">Tartare de thon</h4>
-                <p class="menu-card__text mt-0">Assaisonné au yuzu</p>
-              </div>
-              <p class="menu-card__price">25€</p>
-            </a>
-            <a href="#" class="menu-card neumorphism">
-              <div>
-                <h4 class="menu-card__title mb-0">Bouchée de homard croustillant</h4>
-                <p class="menu-card__text mt-0">Et sa farandole de petits légumes</p>
-              </div>
-              <p class="menu-card__price">35€</p>
-            </a>
-            <a href="#" class="menu-card neumorphism">
-              <div>
-                <h4 class="menu-card__title mb-0">Velouté de cèpes</h4>
-                <p class="menu-card__text mt-0">Aux truffes</p>
-              </div>
-              <p class="menu-card__price">20€</p>
-            </a>
+            <div>
+              <input type="checkbox" name='menu_le_delice_des_sens' id='appetizer1' class='selection'>
+              <label for='appetizer1' class='menu-card neumorphism'>
+                <div class="menu-card--description">
+                  <h4 class="menu-card__title mb-0">Tartare de thon</h4>
+                  <p class="menu-card__text mt-0">Assaisonné au yuzu</p>
+                </div>
+                <p class="menu-card__price">25€</p>
+                <span class='menu-card--validate'>
+                  <i class="fas fa-check-circle menu-card--validate--icon"></i>
+                </span>
+              </label>
+            </div>
+
+            <div>
+              <input type="checkbox" name='menu_le_delice_des_sens' id='appetizer2' class='selection'>
+              <label for='appetizer2' class='menu-card neumorphism'>
+                <div class="menu-card--description">
+                  <h4 class="menu-card__title mb-0">Bouchée de homard croustillant</h4>
+                  <p class="menu-card__text mt-0">Et sa farandole de petits légumes</p>
+                </div>
+                <p class="menu-card__price">35€</p>
+                <span class='menu-card--validate'>
+                  <i class="fas fa-check-circle menu-card--validate--icon"></i>
+                </span>
+              </label>
+            </div>
+
+            <div>
+              <input type="checkbox" name='menu_le_delice_des_sens' id='appetizer3' class='selection'>
+              <label for='appetizer3' class='menu-card neumorphism'>
+                <div class="menu-card--description">
+                  <h4 class="menu-card__title mb-0">Velouté de cèpes</h4>
+                  <p class="menu-card__text mt-0">Aux truffes</p>
+                </div>
+                <p class="menu-card__price">20€</p>
+                <span class='menu-card--validate'>
+                  <i class="fas fa-check-circle menu-card--validate--icon"></i>
+                </span>
+              </label>
+            </div>
           </section>
         </article>
-        <article class="menu-container__margin">
-          <h3 class="category mb-0">PLATS</h3>
+
+        <article class="menu--article">
+          <h3 class="menu--article--category mb-0">PLATS</h3>
           <section>
-            <a href="#" class="menu-card neumorphism">
-              <div>
-                <h4 class="menu-card__title mb-0">Poulet rôti aux herbes de Provence</h4>
-                <p class="menu-card__text mt-0">Et sa crème de truffe</p>
-              </div>
-              <p class="menu-card__price">40€</p>
-            </a>
-            <a href="#" class="menu-card neumorphism">
-              <div>
-                <h4 class="menu-card__title mb-0">Langouste rôtie</h4>
-                <p class="menu-card__text mt-0">Et ses légumes de saison</p>
-              </div>
-              <p class="menu-card__price">35€</p>
-            </a>
-            <a href="#" class="menu-card neumorphism">
-              <div>
-                <h4 class="menu-card__title mb-0">Côte de boeuf Angus</h4>
-                <p class="menu-card__text mt-0">Et sa purée de panais</p>
-              </div>
-              <p class="menu-card__price">44€</p>
-            </a>
+            <div>
+              <input type="checkbox" name='menu_le_delice_des_sens' id='dish1' class='selection'>
+              <label for='dish1' class='menu-card neumorphism'>
+                <div class="menu-card--description">
+                  <h4 class="menu-card__title mb-0">Poulet rôti aux herbes de Provence</h4>
+                  <p class="menu-card__text mt-0">Et sa crème de truffe</p>
+                </div>
+                <p class="menu-card__price">40€</p>
+                <span class='menu-card--validate'>
+                  <i class="fas fa-check-circle menu-card--validate--icon"></i>
+                </span>
+              </label>
+            </div>
+
+            <div>
+              <input type="checkbox" name='menu_le_delice_des_sens' id='dish1' class='selection'>
+              <label for='dish1' class='menu-card neumorphism'>
+                <div class="menu-card--description">
+                  <h4 class="menu-card__title mb-0">Langouste rôtie</h4>
+                  <p class="menu-card__text mt-0">Et ses légumes de saison</p>
+                </div>
+                <p class="menu-card__price">35€</p>
+                <span class='menu-card--validate'>
+                  <i class="fas fa-check-circle menu-card--validate--icon"></i>
+                </span>
+              </label>
+            </div>
+
+            <div>
+              <input type="checkbox" name='menu_le_delice_des_sens' id='dish1' class='selection'>
+              <label for='dish1' class='menu-card neumorphism'>
+                <div class="menu-card--description">
+                  <h4 class="menu-card__title mb-0">Côte de boeuf Angus</h4>
+                  <p class="menu-card__text mt-0">Et sa purée de panais</p>
+                </div>
+                <p class="menu-card__price">44€</p>
+                <span class='menu-card--validate'>
+                  <i class="fas fa-check-circle menu-card--validate--icon"></i>
+                </span>
+              </label>
+            </div>
           </section>
         </article>
-        <article class="menu-container__margin mb-0">
-          <h3 class="category mb-0">DESSERTS</h3>
+
+        <article class="menu--article mb-0">
+          <h3 class="menu--article--category mb-0">DESSERTS</h3>
           <section>
-            <a href="#" class="menu-card neumorphism">
-              <div>
-                <h4 class="menu-card__title mb-0">Farandole de desserts</h4>
-                <p class="menu-card__text mt-0">Du chef</p>
-              </div>
-              <p class="menu-card__price">18€</p>
-            </a>
-            <a href="#" class="menu-card neumorphism">
-              <div>
-                <h4 class="menu-card__title mb-0">Crème brulée</h4>
-                <p class="menu-card__text mt-0">Revisitée</p>
-              </div>
-              <p class="menu-card__price">22€</p>
-            </a>
-            <a href="#" class="menu-card neumorphism">
-              <div>
-                <h4 class="menu-card__title mb-0">Tiramisu</h4>
-                <p class="menu-card__text mt-0">À la noisette</p>
-              </div>
-              <p class="menu-card__price">23€</p>
-            </a>
+            <div>
+              <input type="checkbox" name='menu_le_delice_des_sens' id='dessert1' class='selection'>
+              <label for='dessert1' class='menu-card neumorphism'>
+                <div class="menu-card--description">
+                  <h4 class="menu-card__title mb-0">Farandole de desserts</h4>
+                    <p class="menu-card__text mt-0">Du chef</p>
+                  </div>
+                  <p class="menu-card__price">18€</p>
+                <span class='menu-card--validate'>
+                  <i class="fas fa-check-circle menu-card--validate--icon"></i>
+                </span>
+              </label>
+            </div>
+
+            <div>
+              <input type="checkbox" name='menu_le_delice_des_sens' id='dessert2' class='selection'>
+              <label for='dessert2' class='menu-card neumorphism'>
+                <div class="menu-card--description">
+                  <h4 class="menu-card__title mb-0">Crème brulée</h4>
+                    <p class="menu-card__text mt-0">Revisitée</p>
+                  </div>
+                  <p class="menu-card__price">22€</p>
+                <span class='menu-card--validate'>
+                  <i class="fas fa-check-circle menu-card--validate--icon"></i>
+                </span>
+              </label>
+            </div>
+
+            <div>
+              <input type="checkbox" name='menu_le_delice_des_sens' id='dessert3' class='selection'>
+              <label for='dessert3' class='menu-card neumorphism'>
+                <div class="menu-card--description">
+                  <h4 class="menu-card__title mb-0">Tiramisu</h4>
+                    <p class="menu-card__text mt-0">À la noisette</p>
+                  </div>
+                  <p class="menu-card__price">23€</p>
+                <span class='menu-card--validate'>
+                  <i class="fas fa-check-circle menu-card--validate--icon"></i>
+                </span>
+              </label>
+            </div>
           </section>
         </article>
         <button class="btn menu-btn mt-0">Commander</button>
@@ -111,12 +173,12 @@
 
     <footer class="footer">
       <div class="footer__container">
-        <img src="../assets/logo/ohmyfood@2x.svg" alt="Logo Ohmyfood" class="footer__logo">
-        <nav class="nav">
-          <a href="#" class="nav__text"><i class="fa-solid fa-utensils icon-footer"></i>Proposer un restaurant</a>
-          <a href="#" class="nav__text"><i class="fa-solid fa-handshake-angle icon-footer"></i>Devenir partenaire</span></a>
-          <a href="#" class="nav__text">Mentions légales</a>
-          <a href="mailto:ohmyfoodTest@gmail.fr" class="nav__text">Contact</a>
+        <img src="../assets/logo/ohmyfood@2x.svg" alt="Logo Ohmyfood" class="footer__container--logo">
+        <nav class="footer__container--nav">
+          <a href="#" class="footer__container--nav--text"><i class="fa-solid fa-utensils icon-footer"></i>Proposer un restaurant</a>
+          <a href="#" class="footer__container--nav--text"><i class="fa-solid fa-handshake-angle icon-footer"></i>Devenir partenaire</a>
+          <a href="#" class="footer__container--nav--text">Mentions légales</a>
+          <a href="mailto:ohmyfoodTest@gmail.fr" class="footer__container--nav--text">Contact</a>
         </nav>
       </div>
     </footer>

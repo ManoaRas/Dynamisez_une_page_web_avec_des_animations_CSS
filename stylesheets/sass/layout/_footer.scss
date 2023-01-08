@@ -1,22 +1,21 @@
 .footer {
   background-color: #353535;
   color: white;
-  .footer__container {
+  &__container {
     padding: 20px;
     padding-top: 30px;
-  }
-  .footer__logo {
-    filter: brightness(0) invert(1);
-    max-width: 100px;
-  }
-}
-
-.nav {
-  display: flex;
-  flex-direction: column;
-  margin: 15px 0;
-  .nav__text{
-    color: white;
-    margin: 5px 0;
+    &--nav {
+      display: flex;
+      flex-direction: column;
+      margin: 15px 0;
+      &--text{
+        color: white;
+        margin: 5px 0;
+      }
+    }
+    &--logo {
+      filter: brightness(0) invert(1);
+      max-width: 100px;
+    }
   }
 }

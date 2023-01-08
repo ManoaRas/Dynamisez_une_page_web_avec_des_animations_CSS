@@ -14,21 +14,21 @@
 
 .my-heart {
   width: 25px;
-}
-.my-heart > i {
-  position: absolute;
-}
-.my-heart--color {
-  opacity: 0;
-  transition-property: all;
-  transition-duration: 250ms;
-}
-.my-heart--color:hover {
-  opacity: 1;
-  background-image: linear-gradient($secondary-color, $primary-color);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+  &--color {
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 250ms;
+  }
+  &--color:hover {
+    opacity: 1;
+    background-image: linear-gradient($secondary-color, $primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .fa-heart {
+    position: absolute;
+  }
 }
 
  /* The animation code */
