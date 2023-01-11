@@ -31,6 +31,7 @@
 .menu-card{
   display: flex;
   justify-content: space-between;
+  max-width: 100%;
   height: 60px;
   margin: 15px 0;
   padding: 0 0 0 15px;
@@ -51,13 +52,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 245px;
     &--title, &--text {
       display: block;
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
-      min-width: 245px;
     }
     &--title {
       font-family: $title-font;
@@ -69,6 +68,7 @@
     align-items: flex-end;
     font-size: 0.9rem;
     font-weight: 500;
+    margin: 0 10px;
     padding-bottom: 8px;
   }
   &--validate {
@@ -98,23 +98,25 @@
     }
   }
   &:not(:checked) + .menu-card .menu-card--validate {
-    min-width: 0px;
+    width: 0px;
     background-color: transparent;
     width: 0;
     transition: all 500ms ease-in-out;
     .menu-card--validate--icon {
       position: relative;
       left: -15px;
+      width: 0;
       color: transparent;
       animation: animate2 0.4s ease-in-out forwards;
       transition: all 500ms ease-in-out;
     }
   }
   &:checked + .menu-card .menu-card--description {
+    width: 62%;
     transition: all 250ms ease-in-out;
   }
   &:not(:checked) + .menu-card .menu-card--description {
-    width: 290px;
+    width: 75%;
     transition: all 250ms ease-in-out;
   }
 }
