@@ -23,14 +23,15 @@
   &--article {
     margin-bottom: 50px;
     animation: articleCard 2s linear 0s forwards;
-  }
-  &--category {
-    animation: categoryCard 0.6s ease-out;
+    &--category {
+      animation: categoryCard 1s ease-in-out;
+    }
   }
 }
 .menu-card{
   display: flex;
   justify-content: space-between;
+  height: 60px;
   margin: 15px 0;
   padding: 0 0 0 15px;
   border-radius: 15px;
@@ -47,6 +48,9 @@
     animation: menuCard 1.5s ease-in-out 0.3s forwards;
   }
   &--description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 245px;
     &--title, &--text {
       display: block;
@@ -65,6 +69,7 @@
     align-items: flex-end;
     font-size: 0.9rem;
     font-weight: 500;
+    padding-bottom: 8px;
   }
   &--validate {
     background-color: lighten($tertiary-color, 10%);
@@ -74,7 +79,7 @@
     transition: all 0.4s linear;
     &--icon {
       position: absolute;
-      top: 30px;
+      top: 20px;
       left: 20px;
       font-size: 1.25rem;
       color: white;
