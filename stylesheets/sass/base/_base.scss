@@ -1,5 +1,7 @@
 body {
   margin: 0 !important;
+  max-width: $xxl-max;
+  max-height: 1080px;
 }
 a {
   text-decoration: none;
@@ -7,4 +9,22 @@ a {
 }
 .neumorphism {
   box-shadow: 0 5px 10px lightgrey;
+}
+.mt-0 {
+  margin-top: 0 !important;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.mr-10 {
+  margin-right: 10px !important;
+}
+.no-space {
+  display: none;
+}
+
+.base-title {
+  @media screen and (min-width: $md-min) {
+    text-align: center;
+  }
 }

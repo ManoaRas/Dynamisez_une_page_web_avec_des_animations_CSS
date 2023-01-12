@@ -5,10 +5,8 @@
   align-items: center;
   margin: 10px;
   &__form {
-    position: relative;
-    left: 20px;
     height: 5vh;
-    width: 40%;
+    max-width: 50%;
   }
   &__text {
     text-align: center;
@@ -18,63 +16,50 @@
 #city {
   border: none;
   outline: none;
-  width: 75%;
+  width: 70%;
 }
 
 // Operating
 .home {
   margin: 10vh 2vh;
+  @media screen and (min-width: $md-min) {
+    margin: 6vh 2vh;
+  }
+  @media screen and (min-width: $xxl-min) {
+    margin: 88px 2vh;
+  }
   &--operating {
     padding-bottom: 1vh;
-  }
-}
-.operating {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-}
-.btn-operating {
-  border: none;
-  width: 87%;
-  height: 75px;
-  position: relative;
-  margin: 10px auto;
-  padding: 0;
-  border-radius: 20px;
-  color: #000;
-  background-color: #FAFAFA;
-  font-size: 1rem;
-  text-align: start;
-  @include operating-shadow;
-  &__number {
-    position: relative;
-    left: -10px;
-    color: white;
-    background-color: $primary-color;
-    border-radius: 50%;
-    padding: 5px 10px;
-  }
-  &:hover {
-    cursor: pointer;
-    .btn-operating__number {
-      filter: brightness(115%);
-      box-shadow: 0 0 15px 5px $primary-color;
+    &__choice {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      @media screen and (min-width: $md-min) {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
     }
-  &__bold {
-    font-weight: 600;
   }
-}
-}
-
-#home-article {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 // Cards
-.home-article--link {
-  width: 100%;
+.home-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  &--link {
+    width: 100%;
+    @media screen and (min-width: $md-min) {
+      width: 45%;
+    }
+    @media screen and (min-width: $lg-min) {
+      width: 47%;
+    }
+    @media screen and (min-width: $xxl-min) {
+      width: 22%;
+    }
+  }
+
 }
 .home-card {
   margin-bottom: 25px;
@@ -82,16 +67,17 @@
   &--head {
     &__new {
       position: absolute;
-      right: 12px;
       width: 80px;
       margin: 10px;
       padding: 10px;
       border-radius: 5px;
       color: darken($tertiary-color, 40%);
       background-color: $tertiary-color;
-
       text-align: center;
       font-weight: 700;
+      @media screen and (max-width: $sm-max) {
+        right: 5%;
+      }
     }
     &__img {
       width: 100%;
@@ -115,7 +101,6 @@
       }
     }
     .my-heart {
-      font-size: 1.5em;
       width: 10%;
     }
   }

@@ -13,7 +13,7 @@
 }
 
 .my-heart {
-  width: 25px;
+  font-size: 1.5em;
   &--color {
     opacity: 0;
     transition-property: all;
@@ -30,21 +30,8 @@
     position: absolute;
   }
 }
-
- /* The animation code */
-// @keyframes heart {
-//   0% {
-//     color: none;
-//   }
-//   50% {
-//     color: $primary-color;
-//   }
-//   100% {
-//     color: $secondary-color;
-//   }
-// }
-
-// .my-heart--color {
-//   animation-name: heart;
-//   animation-duration: 1s;
-// }
+.menu-heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

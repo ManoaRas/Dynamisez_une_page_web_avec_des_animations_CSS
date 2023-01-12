@@ -1,11 +1,11 @@
 // Spinner and Validation (Restaurants MenuCards)
 @keyframes animate{
-  0% {transform: rotate(0deg)}
-  100% {transform: rotate(360deg)}
+  0% {transform: rotateZ(0deg)}
+  100% {transform: rotateZ(360deg)}
 }
 @keyframes animate2 {
-  100% {transform: rotateZ(-360deg)}
-  0% {transform: rotateZ(0deg)}
+  0% {transform: rotateZ(360deg)}
+  100% {transform: rotateZ(0deg)}
 }
 
 // Loader (Spinner)
@@ -41,11 +41,15 @@
   75% {opacity: 0.75}
   100% {opacity: 1}
 }
-@keyframes categoryCard {
-  0% {transform: scaleX(2)}
-  100% {transform: scaleX(1)}
-}
 @keyframes menuCard {
   0% {transform: translateY(50px)}
   100% {transform: translateY(0px)}
+}
+@keyframes validationCard {
+  0% {width: 0;}
+  100% {width: 60px;}
+}
+@keyframes validationCard2 {
+  0% {width: 60px;}
+  100% {width: 0;}
 }

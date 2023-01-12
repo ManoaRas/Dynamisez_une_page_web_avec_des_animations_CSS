@@ -1,14 +1,22 @@
-// Variables colors
+/* Variables colors */
 $primary-color: #9356DC;
 $secondary-color: #FF79DA;
 $tertiary-color: #99E2D0;
 
-$load-color: #FFF;
+$lumen: #FFF;
+$dark: #000;
 
-// Breakpoints
-$smartphone: 667px;
-$tablette: 768px;
-$netbook: 992px;
-$desktop: 1200px;
+/* Breakpoints */
+  // Min-width
+$sm-min: 320px;
+$md-min: 768px;
+$lg-min: 992px;
+$xl-min: 1200px;
+$xxl-min: 1500px;
 
-$max-width: 1500px;
+  // Max-width
+$sm-max: 767px;
+$md-max: 991px;
+$lg-max: 1199px;
+$xl-max: 1499px;
+$xxl-max: 1920px;

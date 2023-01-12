@@ -4,10 +4,20 @@
   &__container {
     padding: 20px;
     padding-top: 30px;
+    @media screen and (min-width: $lg-min) {
+      display: flex;
+      justify-content: space-around;
+    }
     &--nav {
       display: flex;
       flex-direction: column;
       margin: 15px 0;
+      @media screen and (min-width: $lg-min) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 85%;
+      }
       &--text{
         color: white;
         margin: 5px 0;
@@ -16,6 +26,9 @@
     &--logo {
       filter: brightness(0) invert(1);
       max-width: 100px;
+      @media screen and (min-width: $lg-min) {
+        max-width: 175px;
+      }
     }
   }
 }
