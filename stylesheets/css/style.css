@@ -220,7 +220,7 @@ h2, h4, h5, .header__logo, .footer__logo {
   filter: brightness(115%);
   box-shadow: 0 0 15px 5px #9356DC;
 }
-.btn-operating:hover__bold {
+.btn-operating__bold {
   font-weight: 600;
 }
 
