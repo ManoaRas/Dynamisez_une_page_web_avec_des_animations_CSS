@@ -663,10 +663,10 @@ h2, h4, h5, .header__logo, .footer__logo {
 }
 .selection:not(:checked) + .menu-card .menu-card--validate .menu-card--validate--icon {
   position: relative;
-  left: -20px;
+  left: -25px;
   width: 0;
   animation: animate2 1s ease-in-out forwards;
-  transition: all 2s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .selection:checked + .menu-card .menu-card--description {
   width: 62%;

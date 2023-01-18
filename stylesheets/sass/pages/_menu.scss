@@ -121,10 +121,10 @@
     animation: validationCard2 750ms ease-in-out forwards;
     .menu-card--validate--icon {
       position: relative;
-      left: -20px;
+      left: -25px;
       width: 0;
       animation: animate2 1s ease-in-out forwards;
-      transition: all 2s ease-in-out;
+      transition: all 1s ease-in-out;
     }
   }
   &:checked + .menu-card .menu-card--description {
